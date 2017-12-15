@@ -1,6 +1,7 @@
 DEVELOPER'S MANUAL 
 
 
+
 This will briefly explain each file and the purpose of its functionality to the overall NBA fantasy draft and league helper. 
 
 NBADATAAPI.php
