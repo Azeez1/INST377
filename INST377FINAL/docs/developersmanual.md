@@ -1,4 +1,13 @@
+DEVELOPER'S MANUAL
 
-USER'S MANUAL
+This will briefly explain each file and the purpose of its functionality to the overall NBA fantasy draft and league helper.
 
-Functionality: Using the Fantasy Draft Helper Application Step 1: Open the website (www.fantasydrafthelper.com) Step 2: Search both players that you want to compare Statistics. Step 3: Click on Submit. Step 4: Compare stats and scroll to highlight each row in table look at bottom to see who the application recommended. Step 5: Submit the Statistics to the database in order to store and be able to reference back to after you finishing comparing.
+NBADATAAPI.php Grabs all the data from api and sends data to NBATable.php and insertnbadatabase.php to be stored.
+
+NBADisplay.html
+This file grabs the data from the user and sends to from the user input information.
+
+NBATable.php This generates player statistics table and recommends best player. insertnbadatabase.php This file connects to the sql database on server and inserts the data from the api to sql database for reference.
+
+Nbasql.sql This creates the sql database tables intended to store the player statistics after the user submits. Code for grabbing API
+
